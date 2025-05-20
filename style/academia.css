@@ -1,0 +1,97 @@
+:root {
+    --font-color-base: black;
+    --font-color-link-hover: #C78FDA;
+    --font-color-base2: #472836;
+    --background-color-light: #F0E9E3;
+    --highlight-color1: #D7EBBA;
+    --highlight-color2: #EBD494;
+}
+
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-variant: all-small-caps;
+    margin-top: 0;
+}
+
+.year-tag {
+    padding: 4px;
+    background-color: var(--font-color-link-hover);
+    border-radius: 4px;
+    margin: 8px;
+    font-weight: bold;
+    color: white;
+}
+
+.year-tag-wrapper {
+    justify-content: center;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.academic-work-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.academic-work-img img {
+    width: 8rem;
+    transition: transform .5s ease;
+}
+
+.academic-work-img {
+    overflow: hidden;
+    flex: 1;
+    min-width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.academic-work-img:hover img {
+    transform: scale(1.25);
+}
+
+.academic-work-text {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 1rem 1rem;
+    flex: 4;
+}
+
+.academic-work-who {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.academic-work-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.academic-work-journal {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.academic-work-link {
+    margin-top: 1rem;
+}
+
+.academic-work-link a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: var(--font-color-base2);
+}
+
+.academic-work-link a:hover {
+    color: var(--font-color-link-hover);
+    cursor: pointer;
+}
+
+main {
+    max-width: 720px;
+}
