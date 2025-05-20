@@ -1,0 +1,93 @@
+:root {
+    --font-color-base: black;
+    --font-color-link-hover: #C78FDA;
+    --font-color-base2: #472836;
+    --background-color-light: #F0E9E3;
+    --highlight-color1: #D7EBBA;
+    --highlight-color2: #EBD494;
+    --highlight-color3: #C78FDA;
+}
+
+#employers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 64px;
+    width: 100%;
+}
+
+.employer-logo {
+    height: 28px;
+}
+
+#bio {
+    text-align: justify;
+}
+
+#hero {
+    display: flex;
+    flex-direction: row;
+}
+
+#hero-foto {
+    flex: 1;
+    display: flex;
+}
+
+#hero-foto img {
+    width: 100%;
+    margin: auto;
+}
+
+#hero-sketch {
+    flex: 2;
+    height: 50vh;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+    position: relative;
+    opacity: 70%;
+    width: 230px;
+    height: 230px;
+    mix-blend-mode: multiply;
+    filter: blur(24px);
+}
+
+#circle-1 {
+    background-color: var(--highlight-color3);
+    top: 0px;
+    left: 50px;
+}
+
+#circle-2 {
+    background-color: var(--highlight-color2);
+    top: -90px;
+    left: 200px;
+}
+
+#circle-3 {
+    background-color: var(--highlight-color1);
+    top: -540px;
+    left: 345px;
+}
+
+.circle-title {
+    z-index: 10;
+    position: relative;
+}
+
+#uxdesign {
+    top: -130px;
+    left: 76px;
+}
+
+#research {
+    top: -215px;
+    left: 245px;
+}
+
+#coding {
+    top: -670px;
+    left: 365px;
+}

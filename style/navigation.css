@@ -1,0 +1,48 @@
+:root {
+    --font-color-base: black;
+    --font-color-link-hover: #C78FDA;
+    --font-color-base2: #472836;
+    --background-color-light: #F0E9E3;
+    --highlight-color1: #D7EBBA;
+    --highlight-color2: #EBD494;
+}
+
+
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+#page-title-wrapper {
+    margin: auto 0;
+}
+
+#page-title {
+    font-weight: bold;
+    font-variant: petite-caps;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: auto;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--font-color-base);
+    font-weight: bold;
+    padding: 1rem;
+}
+
+nav li a:hover {
+    color: var(--font-color-link-hover);
+}
+

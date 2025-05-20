@@ -1,0 +1,39 @@
+:root {
+    --font-color-base: black;
+    --font-color-link-hover: #C78FDA;
+    --font-color-base2: #472836;
+    --background-color-light: #F0E9E3;
+    --highlight-color1: #D7EBBA;
+    --highlight-color2: #EBD494;
+}
+
+
+* {
+	/*padding: 0;
+	margin: 0;
+	box-sizing: inherit;*/
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+body {
+    padding: 42px;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer {
+    padding: 52px 0;
+}
+
+#footer #copyright {
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: right;
+}
