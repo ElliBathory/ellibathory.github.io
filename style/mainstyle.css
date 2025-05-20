@@ -21,15 +21,21 @@ body {
 }
 
 main {
-    margin: 0 auto;
-    max-width: 1000px;
+    margin: 42px auto 0 auto;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+@media screen and (max-width: 780px) {   
+    body {
+        padding: 16px;
+    }
+}
+
 #footer {
-    padding: 52px 0;
+    padding: 52px 0 0 0;
 }
 
 #footer #copyright {

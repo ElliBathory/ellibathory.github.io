@@ -13,6 +13,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Molle&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+
+<svg xmlns="//www.w3.org/2000/svg" version="1.1" class="svg-filters" style="display:none;">
+  <defs>
+    <filter id="marker-shape">
+      <feTurbulence type="fractalNoise" baseFrequency="0 0.15" numOctaves="1" result="warp" />
+      <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warp" />
+    </filter>
+  </defs>
+</svg>
 
     <meta name="theme-color" content="#032121">
 	<!--<meta name="description" content="">
@@ -23,18 +33,48 @@
     <nav>
       <div id="page-title-wrapper"><h1 id="page-title">Elizabeth Bouquet</h1></div>
       <ul>
-        <li><a href="index.html">Start</a></li>
-        <li><a href="index.html">Work</a></li>
-        <li><a href="index.html">Academia</a></li>
-        <li><a href="index.html">CV</a></li>
-        <li><a>Linkedin</a></li>
-        <li><a href="index.html">Contact</a></li>
+        <li><a class="active" href="index.html">Start</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="academia.html">Academia</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="index.html"><img src="./images/linkedin.svg" alt="linkedin icon"></a></li>
+        <li><a href="index.html"><img src="./images/mail_outline.svg" alt="e-mail icon"></a></li>
       </ul>
     </nav>
     <main>
         <!--hero image-->
         <div id="hero">
-          <div id="hero-foto">
+          <div id="hero-image">
+            <div id="hero-image-wrapper">
+              <img src="./images/woman-7393886_1280.png" alt="Elizabeth Bouquet at Dokfest 2025" />
+              <div id="greeting"><p id="hi">Hi, I'm</p><br><p id="myname">Elizabeth Bouquet &#127800;</p>
+                            <div id="bio">
+          <h2>About me</h2>
+        <p>As <span class="circle-sketch-highlight">research associate</span> at HFF Munich's innovation hub CreatiF Center I am currently responsible for researching technical innovations in film and television.</p>
+
+        <p>During my master's degree in <span class="circle-sketch-highlight">Human-Computer Interaction</span> at LMU Munich, I worked on games, mixed reality, and innovative interaction concepts, among other topics.</p>
+        <p>At various stages of my professional career, I have gained experience in web development, user experience design, <span class="circle-sketch-highlight">agile workflows</span>, and digital twin engineering. Outside of work, I am a singer in a band, which helps me refresh my mind for new ideas.</p>
+        <div id="button-wrapper">
+        <button class="action-button primary"><img src="./images/download.svg" alt="download icon"> <p>My CV</p></button>
+        <button class="action-button secondary"><img src="./images/mail_outline.svg" alt="e-mail icon"> <p>Mail</p></button>
+        <button class="action-button secondary"><img src="./images/linkedin.svg" alt="linkedin icon"> <p>Linkedin</p></button>
+        </div>
+        </div>
+              </div>
+            </div>
+          </div>
+          <div id="hero-text">
+            <p class="realistic-marker-highlight">
+              UX Design
+            </p>
+            <p id="hero-research" class="realistic-marker-highlight-yellow">
+              Research
+            </p>
+            <p id="hero-coding" class="realistic-marker-highlight-green">
+              &lt;Coding&gt;
+            </p>
+          </div>
+          <!--<div id="hero-foto">
             <img src="./images/woman-7393886_1280.png" alt="portrait photo" />
           </div>
           <div id="hero-sketch">
@@ -44,16 +84,12 @@
           <img id="research" class="circle-title" src="./images/Research.svg" alt="Research" />
           <div id="circle-3" class="rounded-circle"></div>
           <img id="coding" class="circle-title" src="./images/Coding.svg" alt="Coding" />
-          </div>
+          </div>-->
         </div>
         <!--BIO-->
-        <div id="bio">
-        <p>Elizabeth Bouquet is currently a research associate at the CreatiF Center at the HFF Munich and, together with her team, is responsible for researching technical innovations in film and television.</p>
-
-        <p>During her master's degree in Human-Computer Interaction at LMU Munich, she worked on games, mixed reality, and innovative interaction concepts, among other topics.
-        At various stages of her professional career, she has gained extensive experience in web development, user experience design, and digital twin engineering. Outside of work, she is a singer in a band, which helps her clear her mind for new ideas.</p>
-        </div>
+        
         <!--Clients-->
+        <h2>Companies I worked with</h2>
         <div id="employers">
           <img class="employer-logo" src="./images/logos/Logo_interhyp-gruppe_2021.png" alt="Interhyp AG"/>
           <img class="employer-logo" src="./images/logos/Airbus_Logo_2017.png" alt="Airbus"/>

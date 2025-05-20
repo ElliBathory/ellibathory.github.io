@@ -15,6 +15,8 @@ nav {
     flex-direction: row;
 }
 
+
+
 #page-title-wrapper {
     margin: auto 0;
 }
@@ -42,7 +44,28 @@ nav li a {
     padding: 1rem;
 }
 
+nav li a.active {
+    color: var(--font-color-link-hover);
+    font-weight: bolder;
+    text-decoration: underline 2px;
+}
+
 nav li a:hover {
     color: var(--font-color-link-hover);
 }
 
+@media screen and (max-width: 540px) {   
+    nav {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+
+    nav ul {
+        margin-top: 1.5rem;
+    }
+
+    nav li a {
+        padding: 0.75rem;
+    }
+}
