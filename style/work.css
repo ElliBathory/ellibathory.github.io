@@ -1,0 +1,113 @@
+:root {
+    --font-color-base: black;
+    --font-color-link-hover: #C78FDA;
+    --font-color-base2: #472836;
+    --background-color-light: #F0E9E3;
+    --highlight-color1: #D7EBBA;
+    --highlight-color2: #EBD494;
+    --highlight-color3-light: #f9eaff;
+    --highlight-color3-lesslight: #e0bcec;
+}
+
+
+.project-link {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: var(--font-color-base2);
+}
+
+.project-link:hover {
+    color: var(--font-color-link-hover);
+    cursor: pointer;
+}
+
+.project-wrapper img {
+    margin: 16px;
+    padding: initial;
+    height: 300px;
+    object-fit: cover;
+}
+
+.project-tags {
+    display: flex;
+}
+
+.project-tag {
+    padding: 8px;
+    margin: 4px 16px 4px 0;
+    border-radius: 8px;
+    width: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.project-tag.design {
+    background-color: var(--highlight-color1);
+}
+
+.project-tag.dev {
+    background-color: var(--highlight-color2);
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 16px 0 0 0;
+    text-transform: capitalize;
+}
+
+.project-description {
+    
+}
+
+@media screen and (max-width: 768px) {   
+    .project-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 16px 0;
+    }
+
+    .project-wrapper:nth-child(even) {
+        flex-direction: column;
+        background-color: var(--highlight-color3-light);
+        padding: 16px 0;
+    }
+}
+
+@media screen and (min-width: 769px) {   
+    .project-wrapper:nth-child(even) {
+        background-color: var(--highlight-color3-light);
+        flex-direction: row-reverse;
+    }
+
+    .project-wrapper {
+        display: flex;
+        margin: 16px;
+        padding: 16px;
+    }
+}
+
+.project-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.techstack-item {
+    padding: .25rem;
+    background-color: var(--highlight-color3-lesslight);
+    border-radius: 4px;
+    /*margin: 0 .25rem 0 0;*/
+}
+
+.project-techstack{
+    margin: 0 0 2rem 0;
+}
+
+.techstack-title {
+    margin: 0 0 1rem 0;
+    font-size: .75rem;
+}

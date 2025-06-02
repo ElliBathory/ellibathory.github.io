@@ -1,10 +1,12 @@
 :root {
     --font-color-base: black;
     --font-color-link-hover: #C78FDA;
+    --font-color-link-hover-dark: #ad71c2;
     --font-color-base2: #472836;
     --background-color-light: #F0E9E3;
     --highlight-color1: #D7EBBA;
     --highlight-color2: #EBD494;
+    --highlight-color3: #C78FDA;
 }
 
 
@@ -18,6 +20,13 @@
 
 body {
     padding: 42px;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-variant: all-small-caps;
+    margin-top: 0;
 }
 
 main {
@@ -43,3 +52,47 @@ main {
     font-weight: lighter;
     text-align: right;
 }
+
+.action-button {
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 16px;
+    font-size: 18px;
+}
+
+.action-button.primary:hover {
+  background-color: var(--font-color-link-hover-dark);
+}
+
+.action-button.secondary:hover {
+  background-color: var(--font-color-link-hover);
+}
+
+.action-button p {
+    margin: 0;
+}
+
+.action-button.primary {
+    background-color: var(--highlight-color3);
+    border: 2px solid var(--highlight-color3);
+}
+
+.action-button.secondary {
+    background-color: white;
+    border: 2px solid var(--highlight-color3);
+    color: var(--highlight-color3);
+}
+
+#scrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    opacity: 0.9;
+    box-shadow: 4px 4px 8px 0px rgba(170, 150, 181, 0.60);
+}
+

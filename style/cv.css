@@ -1,0 +1,38 @@
+:root {
+    --font-color-base: black;
+    --font-color-link-hover: #C78FDA;
+    --font-color-link-hover-dark: #ad71c2;
+    --font-color-base2: #472836;
+    --background-color-light: #F0E9E3;
+    --highlight-color1: #D7EBBA;
+    --highlight-color2: #EBD494;
+    --highlight-color3: #C78FDA;
+    --highlight-color3-light: #f9eaff;
+}
+
+#cv-download-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#cv-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    background-color: var(--highlight-color3-light);
+}
+
+#cv-icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 32px 16px 32px;
+}
+
+#cv-icon-wrapper img {
+    max-width: 150px;
+}

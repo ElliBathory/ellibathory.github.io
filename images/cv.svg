@@ -1,0 +1,23 @@
+<svg width="198" height="259" viewBox="0 0 198 259" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M177 4H73.5V74H5V237H177V4Z" fill="white"/>
+<path d="M150.5 81H103C104.5 73.1667 111.6 57.3 128 56.5C144.4 55.7 149.833 72.5 150.5 81Z" fill="#D7EBBA"/>
+<path d="M118 29L128.5 25.5L136.5 29L140.5 36V48.5L130 53.5H121.5L116 50V38.5L118 29Z" fill="#F0E9E3"/>
+<path d="M72.5 73.5H5L72.5 6V73.5Z" fill="#D9D9D9" stroke="#9D9D9D"/>
+<path d="M193.5 24V255H20.5" stroke="#666666" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.5 73.5V237H177.5V4.5H73.5M4.5 73.5L73.5 4.5M4.5 73.5H73.5V4.5M128 55.5C146.8 55.5 151.5 72 151.5 81.5H102.5C103.167 72 109.2 55.5 128 55.5ZM128 55.5C132.333 55.5 141 49.9 141 37.5C141 28 132.333 25.1667 128 25C123.5 25 114.5 27 114.5 37.5C114.5 50.3 123.5 55.6667 128 55.5Z" stroke="#666666" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="155" y1="113" x2="92" y2="113" stroke="#B0B0B0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="155" y1="155" x2="92" y2="155" stroke="#B0B0B0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="155" y1="198" x2="92" y2="198" stroke="#B0B0B0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="133" y1="216" x2="92" y2="216" stroke="#B0B0B0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="133" y1="171" x2="92" y2="171" stroke="#B0B0B0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="133" y1="129" x2="92" y2="129" stroke="#B0B0B0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="64" y1="129" x2="31" y2="129" stroke="#B0B0B0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="64" y1="171" x2="31" y2="171" stroke="#B0B0B0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="64" y1="155" x2="44" y2="155" stroke="#B0B0B0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="64" y1="113" x2="44" y2="113" stroke="#B0B0B0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="64" y1="198" x2="44" y2="198" stroke="#B0B0B0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="20.5" y1="198.5" x2="21.5" y2="198.5" stroke="#B1B1B1" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="20.5" y1="155.5" x2="21.5" y2="155.5" stroke="#B1B1B1" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="20.5" y1="113.5" x2="21.5" y2="113.5" stroke="#B1B1B1" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="64" y1="216" x2="31" y2="216" stroke="#B0B0B0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

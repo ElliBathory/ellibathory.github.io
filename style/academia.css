@@ -8,13 +8,6 @@
 }
 
 
-h2 {
-    font-size: 2rem;
-    text-align: center;
-    font-variant: all-small-caps;
-    margin-top: 0;
-}
-
 .year-tag {
     padding: 4px;
     background-color: var(--font-color-link-hover);
@@ -61,18 +54,18 @@ h2 {
 }
 
 .academic-work-who {
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: lighter;
 }
 
 .academic-work-title {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin: 0.5rem 0;
 }
 
 .academic-work-journal {
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: lighter;
 }
 
