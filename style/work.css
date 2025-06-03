@@ -75,6 +75,10 @@
         background-color: var(--highlight-color3-light);
         padding: 16px 0;
     }
+
+    .project-wrapper img {
+        height: auto;
+    }
 }
 
 @media screen and (min-width: 1025px) {   
