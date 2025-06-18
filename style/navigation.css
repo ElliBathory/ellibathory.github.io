@@ -19,6 +19,11 @@ nav {
 
 #page-title-wrapper {
     margin: auto 0;
+    display: flex;
+}
+
+#page-title-wrapper img {
+    margin-right: 1rem;
 }
 
 #page-title {
