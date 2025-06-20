@@ -12,7 +12,10 @@
 
 h3 {
     text-align: center;
-    font-variant: all-petite-caps;
+    text-transform: uppercase;
+    margin: 0;
+    color: #666666;
+    font-weight: 400;
 }
 
 main {
@@ -22,7 +25,7 @@ main {
 td.condition-key {
     text-align: right;
     padding-right: 0.5rem;
-    font-variant: all-petite-caps;
+    text-transform: uppercase;
     font-weight: bold;
     color: var(--font-color-link-hover-dark);
     width: 25%;
@@ -44,6 +47,8 @@ h4 {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-variant: all-small-caps;
+    font-size: 1.2rem;
 }
 
 h4:before,
@@ -67,6 +72,7 @@ h4:after {
 .casestudy-progress-indicator {
     display: flex;
     justify-content: space-between;
+    margin-top: 52px;
 }
 
 .progress-indicator-item {
@@ -74,9 +80,10 @@ h4:after {
     flex-direction: row;
     align-items: center;
     background-color: var(--highlight-color3-light);
-    padding: 8px 16px;
+    padding: 8px;
     min-width: 106px;
     border-radius: 4px;
+    justify-content: center;
 }
 
 .progress-indicator-arrow {
@@ -93,8 +100,10 @@ h4:after {
 }
 
 .progress-indicator-item .item-name {
-    font-variant: all-petite-caps;
-    font-weight: 400;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--font-color-link-hover);
+    font-weight: 500;
 }
 
 .progress-indicator-item.active {
@@ -109,4 +118,56 @@ h4:after {
 .progress-indicator-item.active .item-name {
     color: white;
     font-weight: 400;
+}
+
+.casestudy-section {
+    margin: 0 0 0px 0;
+}
+
+.casestudy-section-title {
+    text-align: center;
+    color: var(--font-color-light);
+    font-size: 1.5rem;
+    margin: 52px 0 0 0;
+}
+
+.process-description {
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {   
+
+    main {
+        max-width: 720px;
+    }
+
+}
+
+@media screen and (max-width: 540px) {  
+
+    .progress-indicator-arrow img {
+        width: 24px;
+    }
+
+    .progress-indicator-arrow {
+        margin: 0;
+        padding: 0;
+    }
+
+    .progress-indicator-item {
+        justify-content: flex-start;
+        padding: 4px 4px;
+        flex-direction: column;
+        min-width: auto;
+        margin: 0;
+    }
+
+    .progress-indicator-item .item-number {
+        font-size: 1rem;
+        margin-right: 0;
+    }
+
+    .progress-indicator-item .item-name {
+        font-size: 0.75rem;
+    }
 }
