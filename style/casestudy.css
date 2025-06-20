@@ -22,6 +22,33 @@ main {
     max-width: 720px;
 }
 
+#casestudy-header {
+    background-color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    right: 52px;
+    margin: 0;
+    padding: 42px 0;
+}
+
+.close-casestudy {
+    border-radius: 4px;
+    padding: 16px;
+    border: 1px solid var(--font-color-light);
+}
+
+.close-casestudy i {
+    margin-right: 16px;
+}
+
+.close-casestudy:hover {
+    background-color: var(--highlight-color3-lesslight);
+}
+
 td.condition-key {
     text-align: right;
     padding-right: 0.5rem;
@@ -63,6 +90,12 @@ h4:after {
     margin: 0 0 0 8px;
 }
 
+.casestudy-header-img {
+    object-fit: cover;
+    height: 320px;
+    margin: 16px 0;
+}
+
 .casestudy-preamble p {
     font-size: 1.5rem;
     font-family: math;
@@ -94,7 +127,7 @@ h4:after {
 
 .progress-indicator-item .item-number {
     font-size: 2rem;
-    margin-right: 1rem;
+    margin-right: 8px;
     font-weight: bold;
     color: var(--font-color-link-hover);
 }
@@ -135,15 +168,36 @@ h4:after {
     margin: 0;
 }
 
-@media screen and (max-width: 1024px) {   
+.casestudy-section-image img {
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 16px 0;
+}
+
+.casestudy-section-image video {
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 16px 0;
+}
+
+@media screen and (max-width: 1024px) {
 
     main {
         max-width: 720px;
     }
 
+    .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    right: 16px;
+    margin: 0;
+    padding: 32px 16px;
 }
 
-@media screen and (max-width: 540px) {  
+}
+
+@media screen and (max-width: 540px) {
 
     .progress-indicator-arrow img {
         width: 24px;
