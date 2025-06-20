@@ -1,5 +1,6 @@
 :root {
-    --font-color-base: black;
+    --font-color-base: #333333;
+    --font-color-light: #666666;
     --font-color-link-hover: #C78FDA;
     --font-color-base2: #472836;
     --background-color-light: #F0E9E3;
@@ -19,8 +20,8 @@
 h2 {
     margin-top: 64px;
     text-align: center;
-    font-size: 1rem;
-    font-variant: petite-caps;
+    font-size: 1.2rem;
+    font-variant: all-small-caps;
 }
 
 #greeting {
@@ -290,11 +291,5 @@ h2 {
 #coding {
     top: -670px;
     left: 365px;
-}
-
-#button-wrapper {
-    display: none;
-    flex-direction: row;
-    justify-content: space-evenly;
 }
 

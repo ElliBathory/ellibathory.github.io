@@ -1,0 +1,112 @@
+:root {
+    --font-color-base: #333333;
+    --font-color-light: #666666;
+    --font-color-link-hover: #C78FDA;
+    --font-color-base2: #472836;
+    --background-color-light: #F0E9E3;
+    --highlight-color1: #D7EBBA;
+    --highlight-color2: #EBD494;
+    --highlight-color3-light: #f9eaff;
+    --highlight-color3-lesslight: #e0bcec;
+}
+
+h3 {
+    text-align: center;
+    font-variant: all-petite-caps;
+}
+
+main {
+    max-width: 720px;
+}
+
+td.condition-key {
+    text-align: right;
+    padding-right: 0.5rem;
+    font-variant: all-petite-caps;
+    font-weight: bold;
+    color: var(--font-color-link-hover-dark);
+    width: 25%;
+    vertical-align: top;
+}
+
+table {
+    margin: 0 0 2rem 0;
+}
+
+td.condition-value {
+    width: 25%;
+    padding-left: 0.5rem;
+}
+
+h4 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h4:before,
+h4:after {
+    content: '';
+    border-top: 1px solid var(--font-color-base);
+    margin: 0 8px 0 0;
+    flex: 1 0 8px;
+}
+
+h4:after {
+    margin: 0 0 0 8px;
+}
+
+.casestudy-preamble p {
+    font-size: 1.5rem;
+    font-family: math;
+    color: var(--font-color-light);
+}
+
+.casestudy-progress-indicator {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-indicator-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--highlight-color3-light);
+    padding: 8px 16px;
+    min-width: 106px;
+    border-radius: 4px;
+}
+
+.progress-indicator-arrow {
+    display: flex;
+    align-items: center;
+    padding: 0px 4px;
+}
+
+.progress-indicator-item .item-number {
+    font-size: 2rem;
+    margin-right: 1rem;
+    font-weight: bold;
+    color: var(--font-color-link-hover);
+}
+
+.progress-indicator-item .item-name {
+    font-variant: all-petite-caps;
+    font-weight: 400;
+}
+
+.progress-indicator-item.active {
+    background-color: var(--font-color-link-hover);
+    color: white;
+}
+
+.progress-indicator-item.active .item-number {
+    color: white;
+}
+
+.progress-indicator-item.active .item-name {
+    color: white;
+    font-weight: 400;
+}

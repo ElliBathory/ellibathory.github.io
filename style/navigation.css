@@ -1,5 +1,6 @@
 :root {
-    --font-color-base: black;
+    --font-color-base: #333333;
+    --font-color-light: #666666;
     --font-color-link-hover: #C78FDA;
     --font-color-base2: #472836;
     --background-color-light: #F0E9E3;

@@ -1,5 +1,6 @@
 :root {
-    --font-color-base: black;
+    --font-color-base: #333333;
+    --font-color-light: #666666;
     --font-color-link-hover: #C78FDA;
     --font-color-base2: #472836;
     --background-color-light: #F0E9E3;
@@ -18,6 +19,10 @@
     display: none;
 }
 
+.project-link.active {
+    display: block;
+}
+
 .project-link:hover {
     color: var(--font-color-link-hover);
     cursor: pointer;
@@ -26,9 +31,9 @@
 .project-wrapper img {
     margin: 16px;
     padding: initial;
-    height: 42vh;
+    /*height: 42vh;*/
     object-fit: cover;
-    max-width: 100%;
+    max-width: 50%;
 }
 
 .project-tags {
@@ -39,17 +44,25 @@
     padding: 8px;
     margin: 4px 16px 4px 0;
     border-radius: 8px;
-    width: 60px;
+    min-width: 60px;
     text-align: center;
     font-weight: bold;
 }
 
-.project-tag.design {
+.project-tag.industry {
     background-color: var(--highlight-color1);
 }
 
-.project-tag.dev {
+.project-tag.university {
     background-color: var(--highlight-color2);
+}
+
+.project-tag.hobby {
+    background-color: var(--background-color-light);
+}
+
+.project-tag.casestudy {
+    background-color: var(--font-color-link-hover);
 }
 
 .project-title {
@@ -57,10 +70,6 @@
     font-weight: bold;
     margin: 16px 0 0 0;
     text-transform: capitalize;
-}
-
-.project-description {
-    
 }
 
 @media screen and (max-width: 1024px) {   
@@ -78,6 +87,7 @@
 
     .project-wrapper img {
         height: auto;
+        max-width: 100%;
     }
 
     main {
@@ -119,8 +129,8 @@
 
 .techstack-title {
     margin: 0 0 1rem 0;
-    font-size: .75rem;
     font-weight: bold;
+    font-size: 0.75rem;
 }
 
 .techstack-item-wrapper {
