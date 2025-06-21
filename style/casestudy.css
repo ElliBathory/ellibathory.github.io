@@ -90,6 +90,28 @@ h4:after {
     margin: 0 0 0 8px;
 }
 
+p {
+    text-align: justify;
+}
+
+.read-time {
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+.read-time-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.read-time-wrapper i {
+    margin-right: 0.5rem;
+    line-height: 13px;
+}
+
 .casestudy-header-img {
     object-fit: cover;
     height: 320px;
@@ -187,13 +209,13 @@ h4:after {
     }
 
     .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    right: 16px;
-    margin: 0;
-    padding: 32px 16px;
-}
+        position: fixed;
+        top: 0;
+        width: 100%;
+        right: 16px;
+        margin: 0;
+        padding: 32px 16px;
+    }
 
 }
 
