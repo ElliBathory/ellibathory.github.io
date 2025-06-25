@@ -75,17 +75,22 @@ nav li a:hover i {
         flex-direction: column;
         justify-content: space-between;
         align-items: stretch;
+        transition: transform .8s ease;
     }
 
     #casestudy-nav {
         flex-direction: row;
     }
 
-    #case-study-nav.sticky {
+    #casestudy-nav.sticky {
         width: 90%;
         right: -32px;
         margin: 0;
-        padding: 16px 52px;
+        padding: 16px 16px;
+    }
+
+    #casestudy-nav h1 {
+        display: none;
     }
 
     nav ul {
