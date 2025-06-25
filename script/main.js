@@ -20,7 +20,7 @@ function scrollToTop() {
   toggleScrollToTop();
 }
 
-var header = document.getElementById("casestudy-header");
+var header = document.getElementById("casestudy-nav");
 var sticky = header.offsetTop;
 
 function toggleStickyHeader() {
