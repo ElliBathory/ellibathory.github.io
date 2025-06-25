@@ -196,10 +196,36 @@ h4:after {
     margin: 16px 0;
 }
 
+.case-study-img50-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.casestudy-section-image .casestudy-img50 {
+    width: 48%;
+}
+
 .casestudy-section-image video {
     width: 100%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin: 16px 0;
+}
+
+.casestudy-takeaways {
+    list-style: none;
+}
+
+.casestudy-takeaways li {
+    margin-bottom: 16px;
+}
+
+.casestudy-takeaways li:before {
+    content: '✓';
+    margin-right: -12px;
+    left: -32px;
+    position: relative;
+    color: var(--font-color-link-hover);
+    font-weight: bolder;
 }
 
 @media screen and (max-width: 1024px) {

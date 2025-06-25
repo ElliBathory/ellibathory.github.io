@@ -50,6 +50,7 @@
     /*height: 42vh;*/
     object-fit: cover;
     max-width: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .project-tags {

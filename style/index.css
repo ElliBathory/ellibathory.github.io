@@ -75,6 +75,11 @@ h2 {
     margin: 16px;
 }
 
+#creatif-logo {
+    height: 36px;
+    margin-top: 8px;
+}
+
 #bio {
     text-align: justify;
 }

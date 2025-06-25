@@ -21,10 +21,16 @@ nav {
 #page-title-wrapper {
     margin: auto 0;
     display: flex;
+    text-decoration: none;
+}
+
+#page-title-wrapper:hover {
+    cursor: pointer;
 }
 
 #page-title-wrapper img {
-    margin-right: 1rem;
+    margin-right: 8px;
+    width: 56px;
 }
 
 #page-title {
@@ -33,6 +39,7 @@ nav {
     font-size: 2rem;
     font-family: "Roboto", sans-serif;
     margin: 0;
+    display: none;
 }
 
 nav ul {
@@ -57,6 +64,10 @@ nav li a.active {
 }
 
 nav li a:hover {
+    color: var(--font-color-link-hover);
+}
+
+nav li a:hover i {
     color: var(--font-color-link-hover);
 }
 
