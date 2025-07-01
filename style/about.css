@@ -1,0 +1,59 @@
+:root {
+    --font-color-base: #333333;
+    --font-color-light: #666666;
+    --font-color-link-hover: #C78FDA;
+    --font-color-base2: #472836;
+    --background-color-light: #F0E9E3;
+    --highlight-color1: #D7EBBA;
+    --highlight-color2: #EBD494;
+}
+
+.section-img {
+    margin: 16px;
+    padding: initial;
+    object-fit: cover;
+    object-position: center;
+    max-width: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.about-section {
+    display: flex;
+}
+
+#about-section-hobbies {
+    flex-direction: column-reverse;
+}
+
+#about-section-hobbies div img {
+    width: calc(100% / 5 - 8px);
+    margin: 4px;
+    height: auto;
+}
+
+.intro-text {
+font-size: 1.5rem;
+    font-family: math;
+    color: var(--font-color-light);
+}
+
+/*
+main :nth-child(odd) {
+    flex-direction: row-reverse;
+}*/
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--font-color-link-hover);
+}
+
+a:hover {
+    background-color: var(--highlight-color3-darker);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.section-images {
+    display: flex;
+}
