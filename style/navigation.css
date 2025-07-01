@@ -101,3 +101,9 @@ nav li a:hover i {
         padding: 10px;
     }
 }
+
+@media screen and (max-width: 540px) {
+    #page-title {
+        font-size: 1.3rem;
+    }
+}
