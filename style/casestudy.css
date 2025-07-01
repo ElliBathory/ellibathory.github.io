@@ -271,5 +271,6 @@ h4:after {
 
     .progress-indicator-item .item-name {
         font-size: 0.75rem;
+        text-align: center;
     }
 }
