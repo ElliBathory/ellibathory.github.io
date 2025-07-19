@@ -27,6 +27,7 @@
 .academic-work-wrapper {
     display: flex;
     flex-direction: row;
+    margin: 8px 0;
 }
 
 .academic-work-img img {
