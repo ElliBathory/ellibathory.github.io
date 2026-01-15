@@ -4,7 +4,7 @@ let btn_scrollToTop = document.getElementById("scrollToTop");
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
   toggleScrollToTop();
-  toggleStickyHeader();
+  //toggleStickyHeader();
 };
 
 function toggleScrollToTop() {
@@ -18,15 +18,4 @@ function toggleScrollToTop() {
 function scrollToTop() {
   window.scrollTo(0, 0);
   toggleScrollToTop();
-}
-
-var header = document.getElementById("casestudy-nav");
-var sticky = header.offsetTop;
-
-function toggleStickyHeader() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
 }
