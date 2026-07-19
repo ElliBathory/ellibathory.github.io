@@ -12,6 +12,28 @@
 }
 
 
+h4 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-variant: all-small-caps;
+    font-size: 2rem;
+}
+
+h4:before,
+h4:after {
+    content: '';
+    border-top: 1px solid var(--font-color-base);
+    margin: 0 8px 0 0;
+    flex: 1 0 8px;
+}
+
+h4:after {
+    margin: 0 0 0 8px;
+}
+
 .project-link {
     text-decoration: none;
     font-size: 1rem;
@@ -24,10 +46,38 @@
     padding: 16px;
     border-radius: 8px;
     margin-top: 1.5rem;
+    margin-right: 8px;
+}
+
+.project-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
 }
 
 .project-link.active {
     display: block;
+}
+
+.project-link.secondary {
+    background: white;
+    border: 2px solid var(--font-color-link-hover);
+}
+
+.project-link.secondary i {
+    margin-left: 8px;
+    color: var(--font-color-link-hover);
+}
+
+.project-link.secondary span {
+    color: var(--font-color-link-hover);
+}
+
+.project-link.secondary:hover {
+    background-color: var(--highlight-color3-light);
+    color: var(--highlight-color3-darker);
+    border: 2px solid var(--highlight-color3-darker);
 }
 
 .project-link:hover {
@@ -47,7 +97,7 @@
 .project-wrapper img {
     margin: 16px;
     padding: initial;
-    /*height: 42vh;*/
+    height: 100%;
     object-fit: cover;
     max-width: 50%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;

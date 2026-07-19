@@ -9,11 +9,11 @@
     --highlight-color3: #C78FDA;
 }
 
-#employers {
+.employers {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
 }
 
