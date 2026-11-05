@@ -10,6 +10,28 @@
     --highlight-color3-lesslight: #e0bcec;
 }
 
+@keyframes scaleProgress {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.progress {
+  height: 8px;
+  background: var(--highlight-color1);
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  transform-origin: 0 50%;
+  animation: scaleProgress auto linear;
+  animation-timeline: scroll(root);
+  z-index: 100;
+}
+
 h3 {
     text-align: center;
     text-transform: uppercase;
@@ -136,6 +158,12 @@ h5 {
     display: flex;
     justify-content: space-between;
     margin-top: 52px;
+    position: sticky;
+    top: 90px;
+    background-color: white;
+    padding: 20px 20px;
+    margin-right: -20px;
+    margin-left: -20px;
 }
 
 .progress-indicator-item {
