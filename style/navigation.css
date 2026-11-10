@@ -8,7 +8,9 @@
     --highlight-color2: #EBD494;
 }
 
-
+html {
+	scrollbar-gutter: stable;
+}
 
 
 nav {
@@ -59,7 +61,8 @@ nav li a {
 nav li a.active {
     color: var(--font-color-link-hover);
     font-weight: bolder;
-    text-decoration: underline 2px;
+    /*text-decoration: underline 2px;*/
+    border-bottom: 4px solid var(--font-color-link-hover);
 }
 
 nav li a:hover {
