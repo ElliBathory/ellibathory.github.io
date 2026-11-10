@@ -102,6 +102,8 @@ video {
 
 .project-wrapper {
     border-radius: 8px;
+    background-color: white;
+    border: 1px solid var(--highlight-color3-lesslight);
 }
 
 .project-wrapper img {
@@ -155,6 +157,7 @@ video {
         display: flex;
         flex-direction: column;
         padding: 16px 0;
+        margin: 16px 0;
     }
 
     .project-wrapper:nth-child(even) {

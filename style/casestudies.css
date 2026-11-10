@@ -1,0 +1,120 @@
+:root {
+    --font-color-base: #333333;
+    --font-color-light: #666666;
+    --font-color-link-hover: #C78FDA;
+    --font-color-base2: #472836;
+    --background-color-light: #F0E9E3;
+    --highlight-color1: #D7EBBA;
+    --highlight-color2: #EBD494;
+    --highlight-color3-light: #f9eaff;
+    --highlight-color3-lesslight: #e0bcec;
+}
+
+
+
+.casestudy-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+.casestudy-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 16px 0 0 0;
+    text-transform: capitalize;
+}
+
+.casestudy-year {
+    font-size: 1rem;
+    margin: 8px 0;
+    color: var(--font-color-light);
+}
+
+.casestudy-wrapper {
+        display: flex;
+        margin: 16px;
+        padding: 16px;
+        flex-direction: column;
+        width: 33%;
+        border-radius: 8px;
+        max-width: 400px;
+    }
+
+@media screen and (min-width: 1025px) {
+    
+
+}
+
+.casestudy-tag-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.casestudy-tag-header i {
+    font-size: 24px;
+    padding: 8px;
+    color: var(--highlight-color3-lesslight);
+}
+
+.casestudy-wrapper:hover .casestudy-tag-header i {
+    color: var(--font-color-link-hover);
+}
+
+.casestudy-wrapper {
+    border: 2px solid var(--highlight-color3-lesslight);
+    background-color: white;
+}
+
+.casestudy-wrapper:hover {
+    border: 2px solid var(--highlight-color3-lesslight);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+.casestudy-image-wrapper {
+    overflow: hidden;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.casestudy-image-wrapper img {
+    transition: transform .8s ease;
+    width: 100%;
+    border-radius: 8px;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.casestudy-wrapper:hover .casestudy-image-wrapper img {
+    transform: scale(1.1) rotate(1.5deg);
+}
+
+.casestudy-tag {
+    padding: 8px;
+    margin: 4px 16px 4px 0;
+    border-radius: 8px;
+    min-width: 60px;
+    text-align: center;
+    font-weight: bold;
+    background-color: var(--highlight-color3-light);
+}
+
+.casestudy-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (max-width: 1024px) {   
+    .casestudy-wrapper {
+        width: 100%;
+        margin: 16px 0;
+    }
+}
