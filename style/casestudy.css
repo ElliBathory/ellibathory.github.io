@@ -279,6 +279,15 @@ h5 {
         padding: 16px 16px;
     }
 
+        .close-casestudy {
+        padding: 8px;
+        
+    }
+
+    ul#casestudy-header {
+        margin-top: 16px;
+    }
+
 }
 
 @media screen and (max-width: 540px) {

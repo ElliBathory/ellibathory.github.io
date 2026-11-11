@@ -84,6 +84,7 @@ nav li a:hover i {
 
     #casestudy-nav {
         flex-direction: row;
+        margin-bottom: 32px;
     }
 
     #casestudy-nav.sticky {
@@ -108,6 +109,14 @@ nav li a:hover i {
 
     nav ul li:nth-child(1) {
         display: none;
+    }
+
+    #casestudy-nav ul li:nth-child(1) {
+        display: block;
+    }
+
+    .close-casestudy {
+        padding: 8px;
     }
 }
 
