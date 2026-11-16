@@ -88,7 +88,7 @@ nav li a:hover i {
     }
 
     #casestudy-nav.sticky {
-        width: 90%;
+        width: 95%;
         right: -32px;
         margin: 0;
         padding: 16px 16px;
@@ -115,13 +115,18 @@ nav li a:hover i {
         display: block;
     }
 
-    .close-casestudy {
-        padding: 8px;
-    }
+
 }
 
 @media screen and (max-width: 540px) {
     #page-title {
         font-size: 1.3rem;
+    }
+
+    #casestudy-nav.sticky {
+        width: 90%;
+        right: -32px;
+        margin: 0;
+        padding: 16px 16px;
     }
 }
